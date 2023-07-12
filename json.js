@@ -1,9 +1,8 @@
 {
 "ten": "Datnh",
   "response": {
-    "version": "1.1",
     "token": "dsfgf",
-
+    "version": "1.1",
     "body": {
       "customer": {
         "customer_id": "1234567",
@@ -19,9 +18,12 @@
         "element2": "2023-01-01 00:00:00"
         },
          {
-        "element1": 3,
+        "element1": 2,
          "element2": "2023-02-01 00:00:00"
-
+        },
+          {
+        "element1": 3,
+         "element2": "2023-03-01 00:00:00"
         }
       ],
       "personal": {
@@ -32,8 +34,6 @@
         "family_status": "single",
         "dob": "1985-12-23"
       }
-
-
     }
   }
 }
