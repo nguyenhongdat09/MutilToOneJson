@@ -22,6 +22,9 @@ def flatten(data, key=None, *, seperator="."):
                 yield from flatten(v, k)
     else:
         yield key, data
-array_tiple = list(flatten(data))
-
-
+array_tuple = list(flatten(data))
+with open(r'text.txt', 'w') as f:
+    for item in array_tuple:
+        for k, v in enumerate(array_tuple):
+            f.write(v[0])
+print(array_tuple)
